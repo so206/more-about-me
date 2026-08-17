@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work — Somaya Samir</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Somaya Samir<span>.</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="work.html" class="active">Work</a>
+      <a href="catalyst.html">Catalyst</a>
+      <a href="about.html">About</a>
+      <a href="index.html#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle">Menu</button>
+  </div>
+</header>
+
+<section class="hero" style="padding-bottom:48px;">
+  <div class="wrap">
+    <span class="eyebrow">Archive</span>
+    <h1 style="font-size:clamp(28px,4.5vw,44px);">Every project, labeled honestly</h1>
+    <p class="lede" style="margin-top:16px;">Concept work, team projects, and freelance-style design are marked as what they actually are — not presented as real clients where they aren't.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="uiux">UI/UX</button>
+      <button class="filter-btn" data-filter="enterprise">Enterprise / AI</button>
+      <button class="filter-btn" data-filter="frontend">Frontend</button>
+      <button class="filter-btn" data-filter="multimedia">Multimedia</button>
+      <button class="filter-btn" data-filter="foundations">CS Foundations</button>
+    </div>
+
+    <div class="proj-grid">
+
+      <a href="catalyst.html" class="card featured" data-cats="enterprise uiux">
+        <div class="thumb"><img src="assets/catalyst/cat-000.jpg" alt="Catalyst dashboard"></div>
+        <div class="card-body">
+          <span class="status concept">Independent concept</span>
+          <h3>Catalyst — AI-Powered Employee Growth Platform</h3>
+          <p>Enterprise concept for frontline industrial teams — AI-prioritized tasks, safety signals, visible growth, human-in-the-loop.</p>
+          <div class="card-tags"><span class="tag">Enterprise UX</span><span class="tag">AI product thinking</span><span class="tag">Figma</span></div>
+        </div>
+      </a>
+
+      <a href="pancakes.html" class="card" data-cats="uiux frontend">
+        <div class="thumb"><img src="assets/pancakes/pan-002.jpg" alt="Pancakes ops dashboard"></div>
+        <div class="card-body">
+          <span class="status built">Concept + working code</span>
+          <h3>Pancakes Coffee — Retention System</h3>
+          <p>Website, loyalty app, and ops dashboard for a 5-branch Cairo cafe, built from a real audit finding.</p>
+          <div class="card-tags"><span class="tag">React</span><span class="tag">WCAG audit</span></div>
+        </div>
+      </a>
+
+      <a href="multimedia.html" class="card" data-cats="multimedia">
+        <div class="thumb"><img src="assets/game/game-01.jpg" alt="2D platformer game"></div>
+        <div class="card-body">
+          <span class="status built">Duo project</span>
+          <h3>2D Platformer</h3>
+          <p>Character &amp; enemy animation, projectile/laser systems, jump physics, camera scroll. C# / Windows Forms.</p>
+          <div class="card-tags"><span class="tag">Animation</span><span class="tag">C#</span></div>
+        </div>
+      </a>
+
+      <div class="card" data-cats="uiux">
+        <div class="thumb"><img src="assets/pancakes/pan-001.jpg" alt="Prayer and Quran app loyalty-style screen"></div>
+        <div class="card-body">
+          <span class="status concept">Personal project</span>
+          <h3>Daily Companion — Prayer &amp; Qur'an App</h3>
+          <p>Mobile concept combining prayer times, Qur'an reading progress, and daily dhikr. Full light and dark modes, one consistent bottom-nav pattern.</p>
+          <div class="card-tags"><span class="tag">Mobile UI</span><span class="tag">Light/dark system</span></div>
+        </div>
+      </div>
+
+      <div class="card" data-cats="frontend">
+        <div class="thumb" style="display:flex;align-items:center;justify-content:center;background:var(--paper-alt);">
+          <span class="status" style="font-size:13px;">No preview image on file</span>
+        </div>
+        <div class="card-body">
+          <span class="status built">Team project · shipped</span>
+          <h3>University E-Learning Platform</h3>
+          <p>Three-role platform (student, staff, admin) built with a university team. I owned the frontend: login system, home/welcome pages, and course pages — in real use by students.</p>
+          <div class="card-tags"><span class="tag">HTML/CSS/JS</span><span class="tag">DOM</span><span class="tag">Team</span></div>
+        </div>
+      </div>
+
+      <div class="card" data-cats="frontend">
+        <div class="thumb" style="display:flex;align-items:center;justify-content:center;background:var(--paper-alt);">
+          <span class="status" style="font-size:13px;">No preview image on file</span>
+        </div>
+        <div class="card-body">
+          <span class="status built">Freelance</span>
+          <h3>PHP Pharmacy Management System</h3>
+          <p>OOP system implementing the Observer and Strategy design patterns, built to match an existing CRUD lab's coding style exactly.</p>
+          <div class="card-tags"><span class="tag">PHP</span><span class="tag">OOP patterns</span></div>
+        </div>
+      </div>
+
+      <div class="card" data-cats="foundations">
+        <div class="thumb" style="display:flex;align-items:center;justify-content:center;background:var(--paper-alt);">
+          <span class="status" style="font-size:13px;">CS Foundations collection</span>
+        </div>
+        <div class="card-body">
+          <span class="status built">Solo · coursework</span>
+          <h3>CS Foundations</h3>
+          <p>Huffman Coding compression (trees, linked lists, three build phases), a text-based 2D console game in C++, and small JavaScript DOM projects (Pomodoro timer, calculator).</p>
+          <div class="card-tags"><span class="tag">C++</span><span class="tag">Data structures</span><span class="tag">JavaScript</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">Somaya Samir<span>.</span></div>
+        <div class="footer-note">B.Sc. Computer Science, MSA University · Cairo, Egypt</div>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:somaya.samir@msa.edu.eg">Email</a>
+        <a href="https://www.linkedin.com/in/somaya-amer-229257331/">LinkedIn</a>
+        <a href="https://github.com/so206">GitHub</a>
+      </div>
+    </div>
+    <div class="footer-note">© 2026 Somaya Samir. All project descriptions reflect actual scope and authorship as designed and built.</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

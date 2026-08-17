@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multimedia &amp; Interactive — Somaya Samir</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">Somaya Samir<span>.</span></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="work.html" class="active">Work</a>
+      <a href="catalyst.html">Catalyst</a>
+      <a href="about.html">About</a>
+      <a href="index.html#contact" class="nav-cta">Contact</a>
+    </nav>
+    <button class="nav-toggle">Menu</button>
+  </div>
+</header>
+
+<section class="cs-hero">
+  <div class="wrap">
+    <a href="work.html" class="back-link">← Back to work</a>
+    <span class="status built">Duo project · C# / Windows Forms</span>
+    <h1 style="font-size:clamp(30px,5vw,48px); margin-top:16px; max-width:24ch;">2D Platformer — animation, projectiles, and camera systems</h1>
+    <p class="lede" style="margin-top:20px;">A side-scrolling 2D platformer built with a partner under strict constraints (no advanced syntax, no modifying the provided skeleton code). It's the strongest evidence I have of interactive and animation thinking, not just static UI.</p>
+    <div class="meta-row">
+      <div class="meta-item"><div class="k">Team</div><div class="v">Duo project</div></div>
+      <div class="meta-item"><div class="k">My role</div><div class="v">Animation, enemy design, projectile &amp; scroll systems</div></div>
+      <div class="meta-item"><div class="k">Stack</div><div class="v">C#, Windows Forms</div></div>
+      <div class="meta-item"><div class="k">Constraints</div><div class="v">No advanced syntax · fixed skeleton code</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cs-block">
+  <div class="wrap cs-grid">
+    <div class="label">01 — My Role</div>
+    <div class="content">
+      <h3>What I personally built</h3>
+      <p>In this duo project, I owned the character and enemy side of the game rather than the core engine scaffolding. Specifically:</p>
+      <ul>
+        <li>Character and enemy animation — including the wizard enemy's cast/attack animation seen below</li>
+        <li>Multiple projectile types, including the green bolt sequences and laser attacks</li>
+        <li>Jump mechanics and platform collision feel</li>
+        <li>The horizontal scroll system that moves the camera with the player across each biome</li>
+      </ul>
+      <p>The project's constraints meant working within a fixed skeleton and a limited syntax set — so the animation and enemy-behavior work had to be expressive within real technical limits, not built from scratch with unlimited tools.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cs-block">
+  <div class="wrap cs-grid">
+    <div class="label">02 — Screens</div>
+    <div class="content">
+      <h3>Two biomes, one enemy system reused across both</h3>
+      <p>The game moves the player through a forest biome and a corrupted "hellscape" variant later in the level — sharing the same enemy (a spell-casting witch/wizard) and projectile logic, re-skinned for the different environment.</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="assets/game/game-01.jpg" alt="Forest biome — witch enemy casting projectile spell, coins and ladder visible">
+          <div class="gallery-cap">Forest biome — witch enemy mid-cast, projectile bolt sequence, coin collectibles, ladder traversal.</div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/game/game-02.jpg" alt="Hellscape biome — two witch enemies, cauldron, and dark familiar enemy">
+          <div class="gallery-cap">Hellscape variant — the same enemy type duplicated with a second attacker, plus a new dark "familiar" enemy and a cauldron hazard.</div>
+        </div>
+        <div class="gallery-item">
+          <img src="assets/game/game-03.jpg" alt="Player close-up facing witch enemy across a gap, early game state">
+          <div class="gallery-cap">Early-level state — player and enemy at close range, showing the projectile telegraph before it reaches the player.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cs-block">
+  <div class="wrap cs-grid">
+    <div class="label">03 — Design Decisions</div>
+    <div class="content">
+      <h3>Interesting constraints, real decisions</h3>
+      <p>Reusing one enemy type across two biomes (forest and hellscape) rather than designing entirely new enemies per zone kept the animation and projectile-collision work consistent, while re-skinning and adding a second simultaneous attacker in the later biome raised the difficulty without new systems to build from zero. The health bar, score counter, and coin pickups needed to stay legible against very different background palettes — a green/teal forest and a red/dark hellscape — which shaped how high-contrast the UI elements needed to be regardless of scene.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cs-block">
+  <div class="wrap cs-grid">
+    <div class="label">04 — What This Demonstrates</div>
+    <div class="content">
+      <div class="credit-row">
+        <div class="credit-item"><div class="k">Interaction</div><div class="v">Jump feel, collision, scroll pacing</div></div>
+        <div class="credit-item"><div class="k">Visual systems</div><div class="v">Character &amp; enemy animation</div></div>
+        <div class="credit-item"><div class="k">Under constraint</div><div class="v">Fixed skeleton, limited syntax</div></div>
+        <div class="credit-item"><div class="k">Collaboration</div><div class="v">Split ownership in a duo team</div></div>
+      </div>
+      <p>Alongside the UI/UX and frontend work elsewhere in this portfolio, this project is the clearest evidence that I think about interaction, feedback, and visual systems — not just interface layout.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div class="cta-band">
+      <div>
+        <h2>See the systems &amp; UI work</h2>
+        <p class="sub">Catalyst and Pancakes Coffee show the same attention applied to enterprise and product UX.</p>
+      </div>
+      <a href="work.html" class="btn btn-primary">Back to work archive</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">Somaya Samir<span>.</span></div>
+        <div class="footer-note">B.Sc. Computer Science, MSA University · Cairo, Egypt</div>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:somaya.samir@msa.edu.eg">Email</a>
+        <a href="https://www.linkedin.com/in/somaya-amer-229257331/">LinkedIn</a>
+        <a href="https://github.com/so206">GitHub</a>
+      </div>
+    </div>
+    <div class="footer-note">© 2026 Somaya Samir. All project descriptions reflect actual scope and authorship as designed and built.</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
